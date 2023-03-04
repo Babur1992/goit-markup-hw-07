@@ -509,7 +509,7 @@ a {
 .team-card {
   width: calc((100% - 3*24px)/4);
   border-radius: 0px 0px 4px 4px;
-  background-color: var(--bcr-clr);
+  
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -635,10 +635,7 @@ a {
   height: 88px;
 }
 
-@media screen and (max-width:468px) {
-  .customers-item {}
 
-}
 
 .footer-social {
   margin-left: 120px;
